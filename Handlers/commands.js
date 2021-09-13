@@ -22,7 +22,7 @@ module.exports = async (client) => {
     })
 
     client.on('ready', async () => {
-        const MainGuild = await client.guilds.cache.get('883178253672644610');
+        const MainGuild = await client.guilds.cache.get('886808161514835988');
     
         MainGuild.commands.set(commandsArray).then((command) => {
           const Roles = (commandName) => {

@@ -126,3 +126,19 @@ module.exports.getEggs = async (guildId, userId) => {
         }
     })
 }
+module.exports.getItems = async (guildId) => {
+
+    return await mongo().then(async mongoose => {
+        try {
+            console.log('Running findOne()')
+
+            const result = await itemSchema.findOne({
+                guildId
+            })
+
+            return result
+        } finally {
+            //mongoose.connection.close()
+        }
+    })
+}
