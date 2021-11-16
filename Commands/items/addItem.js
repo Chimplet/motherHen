@@ -27,6 +27,7 @@ module.exports = {
             required: true
 
         }
+        
     ],
     async execute(client, interaction, arguments) {
         const price = interaction.options.getInteger('price');

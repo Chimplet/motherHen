@@ -15,6 +15,8 @@ const profileSchema = mongoose.Schema({
     ferteggs: {
         type: Number,
         required: true
+    },
+    inventory: {
     }
 })
 

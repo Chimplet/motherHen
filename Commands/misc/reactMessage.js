@@ -45,7 +45,6 @@ var charEmojis = {
 module.exports = {
     name: 'reactmessage',
     description: 'reacts with emojis to input message',
-    perms: "ADMINISTRATOR",
     options: [
         {
             name: "rmessage",

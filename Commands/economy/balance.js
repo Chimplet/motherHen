@@ -27,7 +27,6 @@ module.exports = {
         const guildId = interaction.guildId;
         const userId = targetId;
         var eggBals = await economy.getEggs(guildId, userId)
-        console.log(await economy.getEggs(guildId, userId).fertEggsBal)
         interaction.reply(`<@${targetId}> has : \n-=-=-=-=-=-=-=-=-=-=-=-=-=-\n${eggBals.ferteggs} fertilized egg(s)\n${eggBals.eggs} egg(s)`)
 
         

@@ -21,4 +21,4 @@ client.on('ready', async () => {
         }
     })
 })
-client.login('ODgzMTc2NTEwNjc1MTIwMTQ4.YTGIOA.SUHqhhCde8qhOAO1L-HTTK4coy8')
+client.login('')
